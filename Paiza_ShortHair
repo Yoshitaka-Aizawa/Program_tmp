@@ -1,0 +1,15 @@
+#include <sstream>
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main(void){
+    int a, b, ans;
+    string str;
+    getline(cin, str);
+    a = atoi(str.c_str());
+    getline(cin, str);
+    b = atoi(str.c_str());
+    ans = a + b;
+    cout << ans << endl;
+    return 0;
+}
